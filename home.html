@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+
+		body{
+		background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bank.jpg);
+		height: 95vh;
+		background-size: cover;
+		padding-left: 20px;
+
+
+		}
+		h1{
+			color: #fff;
+			padding-left: 20px;
+			padding-top: 5px;
+		}
+		
+		
+		.class1 ul{
+	float: right;
+	list-style-type: none;
+	margin-top: -50px;
+	}
+	.class1 ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+.class1 ul li{
+	display: inline-block;
+	left:10px;
+}
+.class1 ul li a:hover{
+	background-color: lightblue;
+	color: #000;
+	}
+.class1 ul li.active a{
+	background-color: lightblue;
+}
+.image1{
+	float: left;
+	width: 33.33%;
+	padding: 65px;
+	flex: 33.33%;
+
+	}
+
+.item{
+		
+		display: inline-block;
+		text-align: center;
+
+	}
+	
+</style>
+</head>
+<body>
+	<header>
+		
+
+	<h1>Sparks Foundation Bank</h1>
+	<div class="class1">
+			<ul>
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				
+			</ul>
+		</div>
+		<div class="item">
+			<a href="view.php"><img class="image1" src="viewcustomer.jpg" style="width: 300px;height: 300px"></a>
+			<figcaption style="color: white;font-size: 25px;">VIEW ALL CUSTOMER</figcaption>
+			
+		</div>
+		<div class="item">
+			<a href="transfer.php"><img class="image1" src="moneytransfer.jpeg" style="width: 300px;height: 300px"></a>
+			<figcaption style="color: white;font-size: 25px;">TRANSFER MONEY</figcaption>
+			
+		</div>
+		<div class="item">
+			<a href="transactionhistory.php"><img class="image1" src="transaction.jpg" style="width: 300px;height: 300px"></a>
+			<figcaption style="color: white;font-size: 25px;">TRANSACTION HISTORY</figcaption>
+			
+		</div>
+</header>
+
+</body>
+</html>
